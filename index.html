@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <h1>Napisz do mnie!</h1>
+    
+            <!-- unikalny token do obsługi form od "formsubmit.io" -->
+    <form class="grid-container" action="https://formsubmit.io/send/927ff3d4-b535-43dd-bdaa-0d511e28b863"      method="POST">
+
+        <input name="_redirect" type="hidden" id="name" value="https://about-me-thks.netlify.app/">
+      <label class="item" for="mail">Twój adres e-mail*:</label>
+      <input
+        class="item"
+        id="mail"
+        name="mail"
+        type="mail"
+        placeholder="Wpisz swój adres email"
+      />
+      <input name="_formsubmit_id" type="text" style="display:none">
+
+      <label class="item" for="message">Twoja wiadomość:</label>
+      <textarea
+        class="item"
+        id="msg"
+        name="msg"
+        rows="8"
+        placeholder="Wpisz wiadomość"
+      ></textarea>
+      <input class="item" id="send" value="Send" type="submit" ></button>
+    </form>
+
+<button class="back"><a href="https://about-me-tom-sza.netlify.app/">Back</a></button>
+  </body>
+</html>
